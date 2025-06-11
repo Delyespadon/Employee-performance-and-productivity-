@@ -258,3 +258,64 @@ results_df = pd.DataFrame(results).T
 results_df['Significant? (p < 0.05)'] = results_df['p-value'] < 0.05
 print(results_df.sort_values(by='p-value'))
 ```
+## III) Keys Insights of the analysis 
+With the first part of the analysis( Python) we observed that: 
+- There are 100,000 employees and both gender( male, female ) were equaly represented 
+- Employees holding bachelor degree  are  the most represented(50%) while those with PhD  the least represented with 5.4%.
+- the employees age were between 20 to  70 year with an average of 41 years a  stnadard deviation of 11 years.
+- The average performnce score and monthly salary are 3 and $6,403 respectively.
+- After using chisquare analysis the performance are influenced by the gender and the educational level with respective 0.01 and 0.013 pvalues
+- Moreover the  performance is also influenced by other factors like the monthly salary, the team size and the number of sicks days.
+-  Concerning the satisfaction score , it was equaly distributed accross all every varaibles and was not influenced by factors
+
+  ###  IV) Recommendations
+ 1) Targeted engagement in low-scoring units
+ Customer Support needs priority: run pulse surveys, listening sessions, and fast-track fixes (workload balance, clearer career paths, upgraded tools).
+ Marketing and Legal are only marginally better—consider cross-training and recognition programs to raise both morale and output.
+ 2)Replicate success practices from top units
+ Operations and IT policies (e.g., strong mentorship, agile workflows, regular up-skilling) should be documented and shared; pilot these in other teams.
+ 3)Align incentives where satisfaction ≠ performance
+ Finance employees feel good but deliver average results. Introduce performance-based bonuses linked to project outcomes and provide coaching on goal-setting.
+ 4) Continuous feedback loops: Deploy quarterly satisfaction/performance dashboards at team level so managers can act before issues snowball.
+ 5) Skill-building and career growth: Company-wide learning budget: tie training hours to clear competency maps; require post-training application projects so gains show up in performance scores.
+6) Flexible work & wellness programs: Data show no major downside from remote work frequency, so expand hybrid options and promote wellness days to pre-empt burnout, especially in high-overtime roles.
+
+   
+ ### v) Project Publishing and Documentation
+   - **Documentation**: Maintain well-structured documentation of the entire process in Markdown 
+   - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
+     - The `README.md` file (this document).
+     - Jupyter Notebooks (if applicable).
+     - The Dashboard.
+     - Data files (if possible) or steps to access them.
+  ## Requirements
+- **Python Programming Language**: python editors
+
+- **Kaggle API Key** (for data downloading)
+
+## Getting Started
+
+```
+ Set up your Kaggle API, download the data, and follow the steps to load and analyze.
+---
+
+## Project Structure
+
+```plaintext
+|-- data/                     # Raw data and transformed data
+|-- Python_script/              # Python scripts for analysis and queries
+|-- README.md                 # Project documentation
+|-- main.py                   # Main script for loading, cleaning, and processing data
+```
+
+## Contributing
+
+Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+- **Data Source**: Kaggle’s Employee Performance and Productivity Data
