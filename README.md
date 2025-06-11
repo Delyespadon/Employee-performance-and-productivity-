@@ -24,9 +24,8 @@ Promotions: Number of promotions received during their tenure.
 Employee_Satisfaction_Score: Employee satisfaction rating (1.0 to 5.0 scale).
 Resigned: Boolean value indicating if the employee has resigned
 
-## Objectives
--	Analyze qualitative-qualitative, qualitative-quantitative, and quantitative-quantitative relationships that will help in optimizing its sales strategy.
--	Create an interactive dashboard to analyze key KPIs such as sales, margins, and regional performance that helps to track sales performance by region and category to identify areas for improvement.
+## Objective
+-	Analyze qualitative-qualitative, qualitative-quantitative, and quantitative-quantitative relationships that will help in optimizing the Employees  performance and the satisfaction.
 ## Dataset
 
 The data for this project is sourced from the Kaggle dataset:
